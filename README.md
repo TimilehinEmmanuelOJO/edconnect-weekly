@@ -1,2 +1,2 @@
 # edconnect-weekly
-edconnect micro fulstak course
+edconnect micro fulstark course
