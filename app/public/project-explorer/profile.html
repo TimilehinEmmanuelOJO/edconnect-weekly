@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>profile Page</title>
 </head>
 <body>
     <head>
@@ -19,8 +19,18 @@
         </ul>
     </nav>
     <main>
-        <h1>Signup</h1>
-        <form action="">
+       <section>
+           <h2>Timi ojo</h2>
+           <p>timiojo@gmail.com</p>
+           <ul>
+               <li>Program: Computer Science</li>
+               <li>Matric: 00/0000</li>
+               <li>Graduation Year: 2019</li>
+           </ul>
+       </section>
+       <section>
+           <h2>Update Profile</h2>
+           <form action="" name="updateProfile">
             <h3>First Name: <input type="text" name="firstName" id=""></h3>
             <h3>Last Name: <input type="text" name="LastName" id=""></h3>
             <h3>Email Address: <input type="email" name="email" id=""></h3>
@@ -44,6 +54,16 @@
             </select></h3>
             <input type="submit" value="Submit">
         </form>
+       </section>
+       <section>
+           <h2>Change Password</h2>
+           <form action="">
+               <h3>Current Password: <input type="password" name="currentpassword" id=""></h3>
+               <h3>New Password: <input type="password" name="newpassword" id=""></h3>
+               <h3>Confirm Password: <input type="password" name="confirmpassword" id=""></h3>
+               <input type="submit" value="Submit">
+           </form>
+       </section>
     </main>
 </body>
 </html>
