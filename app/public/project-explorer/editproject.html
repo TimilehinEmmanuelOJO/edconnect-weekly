@@ -1,51 +1,44 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<header>
-        <h1>Project Explorer</h1>
-        <h2>One Stop Database for Academic Projects</h2>
-</header>
+<html>
+    <header>
+        <h1>Project explorer</h1>
+        <h2>Onestop database for project explorer</h2>
+    </header>
     <nav>
-        
         <a href="index.html">Home</a>
         <a href="search.html">Projects</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
     <main>
-      <div>
-        <h2>Project 1</h2>
+        <section>
+        <header>
+            <h3>Project 1</h3>
+        </header>
         <ul>
-            <li>
-                Created By:
-            </li>
-            <li>
-                Date Created:
-            </li>
-            <li>
-                Last Updated:
-            </li>
+        <li>Created by:Jane Doe</li>
         </ul>
-      </div>
-      <div>
-          <h2>
-              Edit Project
-          </h2>
-          <form action="" name="editProject">
-              <h4>Project Name: </h4><input type="text" name="name" id="" label="Project Name:">
-              <h4>Project Abstract:</h4> <textarea type="text" name="abstract" id="" cols="30" rows="3" name="abstract" label="Project Abstract:"></textarea>
-              <h4>Authors:</h4> <input type="text" name="authors" id="" label="Authors:">
-              <h4>Tag(s)</h4> <input type="text" name="tags" id="" label="Tag(s):">
-              <h4>Upload File:</h4> <input type="file" name="projectFile" id="" label="Upload File:">
-              <input type="submit" value="submit">
-          </form>
-      </div>
+        <ul>
+        <li>Date created by: 00/00/0000</li>
+        </ul>
+        <ul>
+        <li>Late updated:01/01/0001</li>
+        </ul>
+        </section><br><br>
+        <section>
+            <h2>Edit Project</h2>
+            <form>
+            <label for="projectName">Project Name:</label><br>
+            <input type="text" name="name"/><br><br>
+            <label for="projectAbstract">Project Abstract :</label><br>
+            <textarea id="text" name="abstract"></textarea><br><br>
+            <label for="authors">Authors:</label><br>
+            <input type="text" name="authors"/><br><br>
+            <label for="tags">Tag(s):</label><br>
+            <input type="text" name="tags"/><br><br>
+            <label for="uploadFile">Upload File:</label><br>
+            <input type="file" name="projectFile"><select value="Choose file">Choose File</select>No file option<br><br>
+            <input type="submit"/>
+            </form>
+        </section>
     </main>
-</body>
 </html>
